@@ -184,7 +184,7 @@ void measureSelectionSort(vector<int> &v){
     cout << "Tempo de execução do Selection Sort: " << duration.count() << " microseconds" << endl;
     printDurationInMinutes(duration.count());
 }
-
+////////
 void measureInsertionSort(vector<int> &v){
     auto start = high_resolution_clock::now();
     insertionSort(v);
